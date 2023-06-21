@@ -1,6 +1,6 @@
-Here is a possible markdown readme.md for the micro python code:
+# Micro Python Keypad(2X2) Project
 
-# Micro Python Keypad Project
+![2X2 MATRIX KEYPAD](2X2 matrix button.jpg)
 
 This is a project that uses a 2x2 keypad and four LEDs to demonstrate the input and output capabilities of micro python. The keypad is connected to four pins of the ESP32 board, and the LEDs are connected to four other pins. When a key is pressed, the corresponding LED will blink and the key name will be printed on the serial monitor.
 
@@ -15,10 +15,6 @@ This is a project that uses a 2x2 keypad and four LEDs to demonstrate the input 
 - A code editor (such as Thonny or uPyCraft)
 
 ## Wiring
-
-The wiring diagram is shown below:
-
-![Wiring diagram](wiring.png)
 
 The keypad has four pins: left down, left up, right down, and right up. They are connected to pins 0, 1, 2, and 3 of the ESP32 board respectively. The LEDs are connected to pins 16, 17, 18, and 19 of the ESP32 board respectively, with resistors in series. The longer leg of the LED should be connected to the pin, and the shorter leg to the resistor.
 
