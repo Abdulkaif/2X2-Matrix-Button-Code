@@ -1,6 +1,6 @@
 # Micro Python Keypad(2X2) Project
 
-![2X2 MATRIX KEYPAD]('2X2 matrix button.jpg')
+![2X2 MATRIX KEYPAD](https://github.com/Abdulkaif/4X4-Matrix-Button-Code/blob/main/2X2%20matrix%20button.jpg)
 
 This is a project that uses a 2x2 keypad and four LEDs to demonstrate the input and output capabilities of micro python. The keypad is connected to four pins of the ESP32 board, and the LEDs are connected to four other pins. When a key is pressed, the corresponding LED will blink and the key name will be printed on the serial monitor.
 
